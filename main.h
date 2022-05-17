@@ -6,7 +6,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/stat.h>
-#include <sys/wait.h>
+/*include <sys/wait.h> */
 #include <string.h>
 #include <signal.h>
 #include <fcntl.h>
@@ -24,3 +24,7 @@ char _splitPATH(char *str);
 
 /* Program */
 int *_read(void);
+char *fullpathbuffer(char **av, char *PATH, char *copy);
+int checkbuiltins(char **av, char *buffer, int exitstatus);
+
+#endif 
