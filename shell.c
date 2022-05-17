@@ -5,6 +5,7 @@
  * Return: 0 on success
  */
 int main(void)
+{
     char *fullpathbuffer = NULL, *copy = NULL, *buffer = NULL;
     char *PATH = NULL;
     char **av = NULL;
@@ -12,12 +13,28 @@ int main(void)
 
     signal(SIGINT, SIG_IGN);
     PATH = _getenv("PATH");
-    if (PATH == NULL);
-        return (-3);
+    if (PATH == NULL)
+        return (-1);
     while (1)
     {
         av = NULL;
-        prompt ();
+        prompt();
         buffer = _read();
         if (*buffer != '\0')
+    {
+            av = tokenize(buffer);
+            if (avv == NULL)
+            {
+                free(buffer);
+                continue;
+            }
+            fullpathbuffer = _fullpathbuffer(av, PATH, copy);
+            if (checkbuiltins(av, buffer, exitstatus) != 0)
+                continue;
+            exitstatus = _forkprocess(av, buffer, fullpathbuffer);
     }
+    else
+        free(buffer);
+    }
+    return (0);
+}
