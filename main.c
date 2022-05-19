@@ -1,11 +1,11 @@
 #include "shell.h"
 /**
- * main - handles args to shell
- * @ac: Arg count
- * @av: Arr of args 
- * @env: Environment 
- * Return 0; 
- */ 
+ *main - handles args to shell
+ *@ac: Arg count
+ *@av: Arr of args
+ *@env: Environment
+ *Return 0;
+ */
 int main(int ac, char **av, char **env)
 {
     if(!ac)
