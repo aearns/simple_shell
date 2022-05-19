@@ -8,7 +8,7 @@
 #include <sys/stat.h>
 #include <dirent.h>
 #include <stddef.h>
-#include <sys/wait.h>
+##include <sys/wait.h>
 #include <errno.h>
 #define TOKENS_BUFFER_SIZE 64
 #define LINE_SIZE 1024
