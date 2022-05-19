@@ -38,7 +38,7 @@ char read_dir(char *er, struct dirent *s, char *fi, int l, char *p, char *t);
 void prompt(void);
 char get_env(char *env);
 void env_shell(char **args, char *line, char **env);
-int _strcmp(cahr *s1, char *s2);
+int _strcmp(char *s1, char *s2);
 char *find_path(char *args, char *tmp, char *er);
 
 #endif 
