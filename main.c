@@ -7,7 +7,8 @@
  *@env: Environment
  *Rturn: 0;
  */
-int main(int ac, char **av, char **env){
+int main(int ac, char **av, char **env)
+{
 	if(!ac)
 		(void)ac;
 	if(!av)

@@ -17,13 +17,16 @@ extern char **environ;
 /**
  * struct builtins - Has builtins and associated funcs
  * @arg: Builtins name
- * @builtin: Mathcing builtin func
+ * @builtin: Matchiing builtin function
  */
 typedef struct builtins
 {
 	char *arg;
 	void (*builtin)(char **args, char *line, char **env);
-} builtins_t;
+} 
+
+builtins_t;
+
 void shell(int ac, char **av, char **env);
 char *_getline(void);
 char **split_line(char *line);
@@ -43,4 +46,5 @@ char *read_dir(char *er, struct dirent *s, char *fi, int l, char *p, char *t);
 char *_getenv(char *env);
 char *_strstr(char *haystack, char *needle);
 int _strlen(char *s);
+
 #endif
