@@ -1,6 +1,5 @@
 /*
  * File: input_helpers.c
- * Auth: Sarpong Twum Barimah & Francesca Lynn Asiedu Asare
  */
 
 #include "shell.h"

@@ -1,7 +1,5 @@
 /*
- * File: err_msgs1.c
- * Auth: Sarpong Twum Barimah & Francesca Lynn Asiedu Asare
- *       
+ * File: err_msgs1.c       
  */
 
 #include "shell.h"

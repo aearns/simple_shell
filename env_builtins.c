@@ -1,7 +1,5 @@
 /*
- * File: env_builtins.c
- * Auth: Sarpong Twum Barimah & Francesca Lynn Asiedu Asare
- *       
+ * File: env_builtins.c     
  */
 
 #include "shell.h"

@@ -1,6 +1,5 @@
 /*
  * File: str_funcs1.c
- * Auth: Sarpong Twum Barimah & Francesca
  */
 
 #include "shell.h"

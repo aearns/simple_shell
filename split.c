@@ -1,6 +1,5 @@
 /*
  * File: split.c
- * Auth: Sarpong Twum Barimah & Francesca
  */
 
 #include "shell.h"

@@ -1,6 +1,5 @@
 /*
  * File: linkedlist.c
- * Auth: Sarpong Twum Barimah & Francesca Lynn Asiedu Asare
  */
 
 #include "shell.h"

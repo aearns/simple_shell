@@ -1,5 +1,3 @@
-/* AUTHOR: SARPONG TWUM BARIMAH & FRANCESCA*/
-
 #include "shell.h"
 
 int cant_open(char *file_path);

@@ -3,7 +3,6 @@
 
 /*
  * File: shell.h
- * Auth: Auth: Sarpong Twum Barimah & Francesca Lynn Asiedu Asare
  */
 
 #include <fcntl.h>
