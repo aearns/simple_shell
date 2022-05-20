@@ -19,7 +19,6 @@
 /* Points to an array of pointers to strings called the "environment" */
 extern char **environ;
 
-
 /**
  * struct data - struct that contains all relevant data on runtime
  * @av: argument vector
@@ -43,7 +42,7 @@ typedef struct data
 
 /**
  * struct sep_list_s - single linked list
- * @separator: ; | &
+ * @separator: ; || &
  * @next: next node
  * Description: single linked list to store separators
  */
